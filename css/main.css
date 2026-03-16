@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Space Mono", monospace;
+    font-weight: 300;
+    font-style: normal;
+}
+body {
+    background: #635bff url(https://i.pinimg.com/originals/dc/55/38/dc55383adc95d5b53c7e5b9bc69ed3b4.jpg?nii=t) no-repeat;
+    background-size: cover;
+}
+#header, #footer {
+    background: #181818;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    color: aliceblue;
+    text-align: center;
+    border-bottom: 4px solid rgb(88, 88, 88);
+    float: left;
+}
+#footer {
+    margin-bottom: 0;
+    border-bottom: 0;
+    border-top: 4px solid rgb(88, 88, 88);
+}
+#main {
+    background: transparent;
+    backdrop-filter: blur(15px);
+    padding: 1%;
+    color: aliceblue;
+    width: 66%;
+    height: 670px;
+    float: left;
+    margin: 1%;
+    border-radius: 15px;
+    outline: 4px solid rgb(88, 88, 88);
+}
+#aside {
+    background: transparent;
+    backdrop-filter: blur(15px);
+    color: aliceblue;
+    width: 27%;
+    height: 670px;
+    float: left;
+    padding: 1%;
+    margin: 1%;
+    margin-left: 0;
+    border-radius: 15px;
+    outline: 4px solid rgb(88, 88, 88);
+    z-index: 0;
+}
+#about {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    z-index: 1;
+}
+#about li {
+    display: inline;
+}
+#about a:hover {
+    color: rgb(88, 88, 88);
+    background: aliceblue;
+    font-weight: 600;
+    outline: 3px solid rgb(88, 88, 88);
+}
+#about li:not(:last-of-type) {
+    margin-right: 10px;
+}
+#about a {
+    color: aliceblue;
+    text-decoration: none;
+    background: rgb(88, 88, 88);
+    padding: 5px;
+    border-radius: 10px;
+}
